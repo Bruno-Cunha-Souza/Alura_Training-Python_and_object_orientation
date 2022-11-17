@@ -1,1 +1,1 @@
-# Alura_Training-Python_and_object_orientation
+# Alura Training - Python and object orientation
