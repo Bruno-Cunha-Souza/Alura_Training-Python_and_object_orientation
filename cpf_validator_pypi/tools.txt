@@ -1,0 +1,33 @@
+fatia_um = cpf[:3]
+fatia_dois = cpf[3:6]
+fatia_tres = cpf[6:9]
+fatia_quatro = cpf[9:]
+
+cpf_formatado = "{}.{}.{}-{}".format(
+    fatia_um, 
+    fatia_dois,
+    fatia_tres,
+    fatia_quatro
+)
+
+#Print e manipulação dos elementos numericos do CPF
+print("\n-Fatiamento do CPF-\n")
+print("|-----|")
+print("|", fatia_um, "|")
+print("|", fatia_dois, "|")
+print("|", fatia_tres, "|")
+print("|", fatia_quatro, " |")
+print("|-----|")
+print("\n-Formatação do CPF-\n")
+print("|----------------|")
+print("|",cpf_formatado,"|")
+print("|----------------|\n")
+
+
+
+
+
+
+
+
+
