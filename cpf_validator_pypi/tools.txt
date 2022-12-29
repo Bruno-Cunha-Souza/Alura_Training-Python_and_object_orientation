@@ -23,6 +23,26 @@ print("|----------------|")
 print("|",cpf_formatado,"|")
 print("|----------------|\n")
 
+#######################################################################################
+
+time_cadastro = DatasBr()
+
+hoje = datetime.today()
+amanha = datetime.today() + timedelta(days=1)
+
+print(amanha - hoje)
+
+hoje = datetime.today()
+hoje_formatada = hoje.strftime(" %d/%m/%Y \n %H:%M")
+
+print("\n--------------------------------")
+
+print("\n{}\n".format(hoje))
+print("Foi cadastrado em uma {} do mes de {}\n".format(cadastro.dia_semana(), cadastro.mes_cadastro()))
+
+print("--------------------------------\n")
+print(hoje_formatada)
+print("\n--------------------------------\n")
 
 
 
